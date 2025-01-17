@@ -14,49 +14,303 @@
 <body>
 
   <div id="custom-cursor"></div>
+  <button type="button" class="back-button">&#8679;</button>
 
-  <header class="top-line">
-    <a href="#" class="logo">
-      <span class="logo__img-wrapper">
-        <img src="images/logo/logo.svg" alt="logo" class="logo__images">
-      </span>
-      <span class="logo__text">Nurbay</span>
-    </a>
-    <div class="top-line__decoration"></div>
-    <div class="top-line__contacts">
-      <div class="contacts-tel">
-        <span class="pretext">Number:</span>
-        <a href="tel:+77021955383">+7 702 195 5383</a>
+  <header class="home-header">
+    <div class="top-line">
+      <a href="#" class="logo">
+        <span class="logo__img-wrapper">
+          <img src="images/logo/logo.svg" alt="logo" class="logo__images">
+        </span>
+        <span class="logo__text">Nurbay</span>
+      </a>
+      <div class="top-line__decoration"></div>
+      <div class="top-line__contacts">
+        <div class="contacts-tel">
+          <span class="pretext">Number:</span>
+          <a href="tel:+77021955383">+7 702 195 5383</a>
+        </div>
+        <div class="seporaitor"></div>
+        <div class="contacts-mail">
+          <span class="pretext">E-mail:</span>
+          <a href="mailto:nurmoldin98@gmail.com">nurmoldin98@gmail.com</a>
+        </div>
       </div>
-      <div class="seporaitor"></div>
-      <div class="contacts-mail">
-        <span class="pretext">E-mail:</span>
-        <a href="mailto:nurmoldin98@gmail.com">nurmoldin98@gmail.com</a>
-      </div>
+      <div class="top-line__decoration"></div>
+      <input id="myButton" type="button" class="menu-button sound" value="projects" onclick="viewProject()">
     </div>
-    <div class="top-line__decoration"></div>
-    <input type="button" class="menu-button sound" value="projects">
+
+    <section class="home-header__content wrapper">
+      <div class="content__info">
+        <h1>Hello, I’m<br><span class="accent">Nurbay Nurmoldin</span></h1>
+        <p>Welcome to my page! Enjoy your visit!</p>
+
+        <nav class="home-header__nav">
+          <a href="#info" class="anchor sound info">Info</a>
+          <a href="#process" class="anchor sound skills">Process</a>
+          <a href="#review" class="anchor sound review">Review</a>
+          <a href="#contacts" class="anchor sound contacts">Contacts</a>
+        </nav>
+      </div>
+      <div class="content__img"></div>
+    </section>
   </header>
 
   <aside class="home-aside">
     <nav class="home-aside__nav">
-      <a href="#" class="anchor sound info">I<span>nfo</span></a>
-      <a href="#" class="anchor sound skills">S<span>kills</span></a>
-      <a href="#" class="anchor sound review">R<span>eview</span></a>
-      <a href="#" class="anchor sound hobbi">H<span>obby</span></a>
+      <a href="#info" class="anchor sound info">I<span>nfo</span></a>
+      <a href="#process" class="anchor sound skills">P<span>rocess</span></a>
+      <a href="#review" class="anchor sound review">R<span>eview</span></a>
+      <a href="#contacts" class="anchor sound contacts">C<span>ontacts</span></a>
     </nav>
     <div class="home-aside__soc">
-      <a href="https://github.com/nurbay-bay" class="soc" style="background-image: url(/images/soc/github-brands-solid.svg);" target="_blank"></a>
-      <a href="https://www.facebook.com/DonaldTrump/?locale=en_EN" class="soc" style="background-image: url(/images/soc/facebook-brands-solid.svg);" target="_blank"></a>
-      <a href="https://x.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="soc" style="background-image: url(/images/soc/twitter-brands-solid.svg);" target="_blank"></a>
-      <a href="https://www.youtube.com/watch?v=8pIpi1HDEhU" class="soc" style="background-image: url(/images/soc/youtube-brands-solid.svg);" target="_blank"></a>
+      <a href="https://github.com/nurbay-bay" class="soc" style="background-image: url(images/soc/github-brands-solid.svg);" target="_blank"></a>
+      <a href="https://www.facebook.com/DonaldTrump/?locale=en_EN" class="soc" style="background-image: url(images/soc/facebook-brands-solid.svg);" target="_blank"></a>
+      <a href="https://x.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="soc" style="background-image: url(images/soc/twitter-brands-solid.svg);" target="_blank"></a>
+      <a href="https://www.youtube.com/watch?v=8pIpi1HDEhU" class="soc" style="background-image: url(images/soc/youtube-brands-solid.svg);" target="_blank"></a>
     </div>
   </aside>
 
-  <main>
+  <div id="myProjects">
+
+    <div class="first_col scroll-bar">
+      <div class="scroll-list">
+        <a class="scroll-item">
+          <img src="images/slider/1.jpg" alt="1">
+        </a>
+        <a class="scroll-item">
+          <img src="images/slider/2.jpg" alt="1">
+        </a>
+        <a class="scroll-item">
+          <img src="images/slider/3.jpg" alt="1">
+        </a>
+        <a class="scroll-item">
+          <img src="images/slider/4.jpg" alt="1">
+        </a>
+
+        <a class="scroll-item secret">
+          <img src="images/slider/9.jpg" alt="1">
+        </a>
+        <a class="scroll-item secret">
+          <img src="images/slider/10.jpg" alt="1">
+        </a>
+        <a class="scroll-item secret">
+          <img src="images/slider/11.jpg" alt="1">
+        </a>
+        <a class="scroll-item secret">
+          <img src="images/slider/12.jpg" alt="1">
+        </a>
+      </div>
+    </div>
+  
+    <div class="second_col scroll-bar">
+      <div class="scroll-list">
+        <div class="scroll-item">
+          <img src="images/slider/5.jpg" alt="1">
+        </div>
+        <div class="scroll-item">
+          <img src="images/slider/6.jpg" alt="1">
+        </div>
+        <div class="scroll-item">
+          <img src="images/slider/7.jpg" alt="1">
+        </div>
+        <div class="scroll-item">
+          <img src="images/slider/8.jpg" alt="1">
+        </div>
+
+        <div class="scroll-item secret">
+          <img src="images/slider/13.jpg" alt="1">
+        </div>
+        <div class="scroll-item secret">
+          <img src="images/slider/14.jpg" alt="1">
+        </div>
+        <div class="scroll-item secret">
+          <img src="images/slider/15.jpg" alt="1">
+        </div>
+        <div class="scroll-item secret">
+          <img src="images/slider/16.jpg" alt="1">
+        </div>
+      </div>
+    </div>
+
+    <div class="third_col scroll-bar">
+      <div class="scroll-list">
+        <div class="scroll-item">
+          <img src="images/slider/9.jpg" alt="1">
+        </div>
+        <div class="scroll-item">
+          <img src="images/slider/10.jpg" alt="1">
+        </div>
+        <div class="scroll-item">
+          <img src="images/slider/11.jpg" alt="1">
+        </div>
+        <div class="scroll-item">
+          <img src="images/slider/12.jpg" alt="1">
+        </div>
+      </div>
+    </div>
+
+    <div class="fourth_col scroll-bar">
+      <div class="scroll-list">
+        <div class="scroll-item">
+          <img src="images/slider/13.jpg" alt="1">
+        </div>
+        <div class="scroll-item">
+          <img src="images/slider/14.jpg" alt="1">
+        </div>
+        <div class="scroll-item">
+          <img src="images/slider/15.jpg" alt="1">
+        </div>
+        <div class="scroll-item">
+          <img src="images/slider/16.jpg" alt="1">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <main class="home-main">
+
+    
+
+
+    <section id="info" class="wrapper">
+      <div class="section">&mdash; info</div>
+      <div class="container">
+        <artile class="my-story">
+          <h2>My story</h2>
+          <p>Lucifer, also known as Satan or the Devil, is a figure of immense significance in different religions and cultures. The concept of Lucifer has its origins in the Judeo-Christian tradition, where he is portrayed as a fallen angel who rebelled against God and was cast out of heaven. However, the story of Lucifer has also been adapted and reinterpreted in various ways by other religions and mythologies around the world.</p>
+        </artile>
+        <div class="my-skils">
+          <h2>My skills</h2>
+          <div class="skill-item">
+            <div class="skill-text html">HTML / CSS<span class="persent">90%</span></div>
+            <div class="indicator html"></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-text js">JS<span class="persent">51%</span></div>
+            <div class="indicator js"></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-text python">Python<span class="persent">71%</span></div>
+            <div class="indicator python"></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-text c">C++<span class="persent">48%</span></div>
+            <div class="indicator c"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+
+      </div>
+    </section>
+
+    <section id="process" class="wrapper">
+      <div class="section">&mdash; process</div>
+      <div class="container">
+        <div class="item1">
+          <h2>Pushing the boundaries of your potential</h2>
+        </div>
+        <div class="item2">
+          <img src="images/item2.svg" alt="icon">
+          <h3>Branding</h3>
+          <p>Refresh your logo, revamp your website, and even your letterhead— develop a cohesive aesthetic for your brand.</p>
+        </div>
+        <div class="item3">
+          <img src="images/item3.svg" alt="icon">
+          <h3>Packaging</h3>
+          <p>Rethink labels, boxes, signage, and everything that'll help your product make a great first impression.</p>
+        </div>
+        <div class="item4">
+          <img src="images/item4.svg" alt="icon">
+          <h3>Memorabilia</h3>
+          <p>Choose from easy, affordable options for merch like custom tees and sets of pins.</p>
+        </div>
+        <div class="item5">
+          <img src="images/item5.svg" alt="icon">
+          <h3>Visual Aids</h3>
+          <p>Make your point more convincingly with branded flyers, slides, catalogues, infographics.</p>
+        </div>
+        <div class="item6">
+          <button type="button">Start a project</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="review" class="wrapper">
+      <div class="section">&mdash; review</div>
+      <div class="container">
+        <div class="about-otziv">
+          <article>
+            <div class="otziv-container">
+              <div class="star-bar">
+                <img src="images/star.svg" alt="star">
+                <img src="images/star.svg" alt="star">
+                <img src="images/star.svg" alt="star">
+                <img src="images/star.svg" alt="star">
+                <img src="images/star.svg" alt="star">
+              </div>
+              <p>Working with Alex was interesting. He went above and beyond what I've asking for and provided such an amazing design for my mobile application.</p>
+            </div>
+            <div class="add-info otziv">
+              <img src="images/otziv.png" alt="person">
+              <div class="add-info-text">
+                <div class="main">Steve McQuillen</div>
+                <div>CEO @ Vencortex</div>
+              </div>
+            </div>
+          </article>
+          
+        </div>
+        <div class="about-info">
+          <h2>Trusted by the fastest growing digital startups</h2>
+          <div class="quantity-info">
+            <div class="info-item">
+              <span class="quantity">0.2+</span><br>
+              <span class="label">Years of experience</span>
+            </div>
+            <div class="info-item">
+              <span class="quantity">0+</span><br>
+              <span class="label">Projects completed</span>
+            </div>
+            <div class="info-item">
+              <span class="quantity">1+</span><br>
+              <span class="label">Happy clients</span>
+            </div>
+          </div>
+          <div class="logobar">
+            <img src="images/l1.png" alt="l">
+          </div>
+        </div>
+      </div>
+    </section>
 
   </main>
 
+
+  <footer class="home-footer">
+    <section id="contacts" class="wrapper">
+      <div class="section">&mdash; contacts</div>
+      <div class="container">
+        <div class="label">
+          <h2>Let’s work together</h2>
+          <p>I’m available for freelance work. Have any projects in your mind? Just feel free to contact me</p>
+        </div>
+        <div class="contacts">
+          <p>150000, Kazakhstan, Petropavl, Jambyl st.</p>
+          <a href="tel:+77021955383"><h2>+7 702 195 5383</h2></a>
+          <a href="mailto:nurmoldin98@gmail.com">nurmoldin98@gmail.com</a>
+          <div class="soc-list">
+            <a href="https://github.com/nurbay-bay" class="soc" style="background-image: url(images/soc/github-brands-solid.svg);" target="_blank"></a>
+            <a href="https://www.facebook.com/DonaldTrump/?locale=en_EN" class="soc" style="background-image: url(images/soc/facebook-brands-solid.svg);" target="_blank"></a>
+            <a href="https://x.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="soc" style="background-image: url(images/soc/twitter-brands-solid.svg);" target="_blank"></a>
+            <a href="https://www.youtube.com/watch?v=8pIpi1HDEhU" class="soc" style="background-image: url(images/soc/youtube-brands-solid.svg);" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
 
 
   <script src="js/main.js"></script>

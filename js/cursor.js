@@ -7,7 +7,7 @@ document.addEventListener('mousemove', (e) => {
   cursor.style.top = `${e.clientY}px`;
 });
 
-const interactiveElements = document.querySelectorAll('a, input');
+const interactiveElements = document.querySelectorAll('a, input, button');
 
 interactiveElements.forEach((element) => {
   element.addEventListener('mouseover', () => {
